@@ -1,21 +1,17 @@
-.Headings{
-color:yellow
-
-}
-
-
 .First1{
     display: flex;
     color: yellowgreen;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+
 
 }
 
-
-
-
-
+#aime{
+    border-radius:100px;
+    background-color: blue;
+}
 
 
 
