@@ -6,13 +6,13 @@ first , second = st.columns(2)
 
 with first:
     #st.camera_input(label= "camera")
-    st.image("download (2).jpg", width = 300) # takes a img as the parameter and put it on the screen and make it an obj of "st.image()"
+    st.image("download (2).jpg", width = 278  ) # takes a img as the parameter and put it on the screen and make it an obj of "st.image()"
 
 with second:
     text = "Hello I am Rigaud Luly and welcome to my website where I host \
             all my pojects and you can contact me."
 
-    st.title("Rigaud Luly")
+    st.title("Ace")
     st.info(text) # whats st.text()? .write() lets me write whats in () on screen
     
 st.info("Below you can find my contact information!")
