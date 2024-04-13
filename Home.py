@@ -12,7 +12,7 @@ with second:
     text = "Hello I am Rigaud Luly and welcome to my website where I host \
             all my pojects and you can contact me."
 
-    st.title("Ace")
+    st.title("Me")
     st.info(text) # whats st.text()? .write() lets me write whats in () on screen
     
 st.info("Below you can find my contact information!")
