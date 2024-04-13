@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas 
 st.set_page_config(layout="wide") 
+
+
 st.title("Welcome to my Project hosting page")
 first , second = st.columns(2)
 
@@ -14,7 +16,7 @@ with second:
     st.title("Me")
     st.info(text) # whats st.text()? .write() lets me write whats in () on screen
     
-st.info("Below you can find my projects with links to it")
+st.info("Below, you'll discover a curated collection of my projects, each accompanied by detailed descriptions and direct links for further exploration. From web applications to machine learning models, these projects showcase my expertise and passion for technology. I invite you to delve into each project, explore its intricacies, and witness the creativity and innovation that went into its development. Whether you're a fellow enthusiast, potential employer, or simply curious explorer, I hope you find inspiration and insight in my work. Dive in, and let's embark on a journey through innovation together!")
 
 df = pandas.read_csv("data.csv", sep = ";")
 
@@ -25,7 +27,7 @@ with col3:
         st.header(row["title"]) # could be .write as well but .header gives me a bold header text \
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write("[source Code]()")
+        st.write("[source Code]()") #text that will be used as the clickable link is in # and thelitteral link or url is in the () and to \ use panda to go through it i f string and use the url thaty make it dynamic and easier
         
 with space_col:
     pass
