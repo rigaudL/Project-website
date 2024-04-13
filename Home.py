@@ -6,7 +6,7 @@ first , second = st.columns(2)
 
 with first:
     #st.camera_input(label= "camera")
-    st.image("download (2).jpg", width = 278  ) # takes a img as the parameter and put it on the screen and make it an obj of "st.image()"
+    st.image("ME.img", width = 600   ) # takes a img as the parameter and put it on the screen and make it an obj of "st.image()"
 
 with second:
     text = "Hello I am Rigaud Luly and welcome to my website where I host \
@@ -15,7 +15,7 @@ with second:
     st.title("Me")
     st.info(text) # whats st.text()? .write() lets me write whats in () on screen
     
-st.info("Below you can find my contact information!")
+st.info("Below you can find my projects with links to it")
 
 df = pandas.read_csv("data.csv", sep = ";")
 
