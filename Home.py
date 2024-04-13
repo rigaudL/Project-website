@@ -9,8 +9,9 @@ with first:
     st.image("ME.img", width = 500   ) # takes a img as the parameter and put it on the screen and make it an obj of "st.image()"
 
 with second:
-    text = "Hello I am Rigaud Luly and welcome to my website where I host \
-            all my pojects and you can contact me."
+    text = Certainly! Here's a slightly expanded version:
+
+"Hello! My name is Rigaud Luly, and I'm thrilled to welcome you to my portfolio website. Here, I showcase a diverse range of projects that I've worked on, spanning various technologies and industries. Whether you're here to explore my projects, learn more about my skills and experiences, or get in touch for potential collaboration opportunities, I'm excited to have you here. Feel free to browse through my portfolio and don't hesitate to reach out—I'm always eager to connect and discuss new opportunities. Welcome, and thank you for visiting!"
 
     st.title("Me")
     st.info(text) # whats st.text()? .write() lets me write whats in () on screen
