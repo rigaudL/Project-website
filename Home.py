@@ -23,20 +23,20 @@ df = pandas.read_csv("data2.csv", sep = ";")
 col3 , space_col, col4 = st.columns([1.5 , 0.5 , 1.5])
 
 with col3:
-    for index, row in df[10:].iterrows():
+    for index, row in df[2:].iterrows():
         st.header(row["title"]) # could be .write as well but .header gives me a bold header text \
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write("[source Code]()") #text that will be used as the clickable link is in # and thelitteral link or url is in the () and to \ use panda to go through it i f string and use the url thaty make it dynamic and easier
+        st.write(f"[source Code]({row['url']})") #text that will be used as the clickable link is in # and thelitteral link or url is in the () and to \ use panda to go through it i f string and use the url thaty make it dynamic and easier
         
 with space_col:
     pass
 with col4:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:2].iterrows():
         st.header(row["title"]) # could be .write as well but .header gives me a bold header text \
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write("[source Code]()")
+        st.write(f"[source Code]({row['url']})")
         
         
         
