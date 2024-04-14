@@ -3,8 +3,7 @@ import os
 
 
 def send_email(username, message):
-    # smtplib Is used to send emails
-    #ssl is used to keep things 
+
     host = "smtp.gmail.com"
     port = 465
     username = "Rigaudluly21@gmail.com"
